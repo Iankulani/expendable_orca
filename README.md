@@ -181,44 +181,47 @@ Advanced Security Features
 
 # Expendable Orca provides numerous advanced capabilities, including:
 
-Multi-factor authentication
-Role-based access control
-End-to-end encrypted communications
-API integration
-Automation engine
-Task scheduling
-Workflow automation
-Plugin architecture
-Custom modules
-Enterprise logging
-Audit reporting
-Secure credential management
-Session management
-Centralized administration
-Backup and recovery
-High availability support
-Multi-tenant architecture
-Cloud deployment
-On-premises deployment
-Hybrid deployment
-REST API
-WebSocket support
-Notification engine
-Real-time dashboards
-SIEM integration
-Directory service integration
-Secure configuration management
-Event correlation
-Performance analytics
-Comprehensive reporting
-Team collaboration tools
-Alert prioritization
-Secure data storage
-Scalable architecture
-Cross-platform compatibility
-Mobile-friendly interface
-Continuous updates
-Built for Modern Security Teams
+* Multi-factor authentication
+
+* Role-based access control
+ 
+* End-to-end encrypted communications
+ 
+* API integration
+* Automation engine
+* Task scheduling
+* Workflow automation
+* Plugin architecture
+* Custom modules
+* Enterprise logging
+* Audit reporting
+* Secure credential management
+* Session management
+* Centralized administration
+* Backup and recovery
+* High availability support
+* Multi-tenant architecture
+* Cloud deployment
+* On-premises deployment
+* Hybrid deployment
+* REST API
+* WebSocket support
+* Notification engine
+* Real-time dashboards 
+* SIEM integration
+* Directory service integration
+* Secure configuration management
+* Event correlation
+* Performance analytics
+* Comprehensive reporting
+* Team collaboration tools
+* Alert prioritization
+* Secure data storage
+* Scalable architecture
+* Cross-platform compatibility
+* Mobile-friendly interface
+* Continuous updates
+* Built for Modern Security Teams
 
 Expendable Orca is designed for organizations that require flexibility, security, and operational efficiency. By combining centralized management with secure multi-platform access, the platform enables authorized users to manage cyber security operations from the tools they already use every day.
 
