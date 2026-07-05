@@ -139,15 +139,15 @@ Expendable Orca continuously monitors connected systems for security-relevant ev
 
 # Monitoring capabilities include:
 
-Authentication events
-System alerts
-Network activity
-User activity
-Service health
-Security logs
-Infrastructure metrics
-Threat indicators
-Configuration changes
+* Authentication events
+* System alerts
+* Network activity
+* User activity
+* Service health
+* Security logs
+* Infrastructure metrics
+* Threat indicators
+* Configuration changes
 Resource utilization
 
 Centralized monitoring allows organizations to maintain awareness of operational status while supporting faster incident response.
@@ -156,17 +156,17 @@ Social Engineering Awareness Module
 
 Expendable Orca includes a social engineering awareness module intended exclusively for authorized security awareness programs and defensive training.
 
-Organizations can use the module to:
+# Organizations can use the module to:
 
-Conduct employee awareness exercises
-Measure user awareness
-Evaluate reporting procedures
-Improve organizational security culture
-Generate awareness metrics
-Produce training reports
-Schedule campaigns
-Track participation
-Assess organizational readiness
+* Conduct employee awareness exercises
+* Measure user awareness
+* Evaluate reporting procedures
+* Improve organizational security culture
+* Generate awareness metrics
+* Produce training reports
+* Schedule campaigns
+* Track participation
+* Assess organizational readiness
 
 The module is designed to support ethical security education and should only be used with proper authorization and in accordance with organizational policies and applicable laws.
 
@@ -174,15 +174,15 @@ Keyboard Activity Monitoring
 
 Expendable Orca includes a keyboard activity monitoring capability that is intended solely for authorized administrative, security monitoring, or digital forensics use cases on systems where appropriate permission has been obtained.
 
-Typical enterprise scenarios include:
+# Typical enterprise scenarios include:
 
-Security investigations
-Insider threat investigations
-Digital forensic analysis
-Compliance monitoring
-Authorized endpoint management
-Research environments
-Controlled laboratory testing
+* Security investigations
+* Insider threat investigations
+* Digital forensic analysis
+* Compliance monitoring
+* Authorized endpoint management
+* Research environments
+* Controlled laboratory testing
 
 Use of this capability should comply with organizational policy, applicable law, and user authorization requirements.
 
@@ -256,3 +256,4 @@ python expendable_orca.py
 
 # Star History
 
+[![Star History Chart](https://api.star-history.com/svg?repos=Iankulani/expendable_orca&type=Date)](https://star-history.com/#Iankulani/expendable_orca&Date)
