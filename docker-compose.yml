@@ -1,0 +1,36 @@
+# EXPENDABLE_ORCA v4.0.0 - Docker Compose Configuration
+# Author: Ian Carter Kulani
+
+version: '3.8'
+
+services:
+  expendable-orca:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: expendable-orca:latest
+    container_name: expendable-orca
+    hostname: expendable-orca
+    restart: unless-stopped
+    privileged: true
+    network_mode: host
+    volumes:
+      - ./expendable_orca_data:/app/.expendable_orca
+      - ./expendable_orca_reports:/app/expendable_orca_reports
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      - TZ=UTC
+      - PYTHONUNBUFFERED=1
+    ports:
+      - "5000:5000"
+      - "8080:8080"
+    cap_add:
+      - NET_ADMIN
+      - NET_RAW
+      - SYS_ADMIN
+    security_opt:
+      - apparmor:unconfined
+    devices:
+      - /dev/net/tun
+    tty: true
+    stdin_open: true

@@ -1,0 +1,113 @@
+# EXPENDABLE_ORCA v4.0.0 - Dockerfile (Alpine Linux)
+# Author: Ian Carter Kulani
+
+FROM alpine:3.19
+
+LABEL maintainer="Ian Carter Kulani"
+LABEL version="4.0.0"
+LABEL description="EXPENDABLE_ORCA - Ultimate Cybersecurity Command & Control Platform"
+
+# Install system dependencies
+RUN apk add --no-cache \
+    python3 \
+    py3-pip \
+    py3-virtualenv \
+    gcc \
+    musl-dev \
+    libffi-dev \
+    openssl-dev \
+    libxml2-dev \
+    libxslt-dev \
+    zlib-dev \
+    jpeg-dev \
+    png-dev \
+    nmap \
+    whois \
+    bind-tools \
+    curl \
+    netcat-openbsd \
+    traceroute \
+    iptables \
+    tcpdump \
+    wireshark \
+    git \
+    vim \
+    tmux \
+    screen \
+    bash \
+    wget \
+    tar \
+    grep \
+    sed \
+    coreutils \
+    procps \
+    htop \
+    && rm -rf /var/cache/apk/*
+
+# Create application directory
+WORKDIR /app
+
+# Copy requirements
+COPY requirements.txt .
+
+# Install Python packages
+RUN pip3 install --no-cache-dir --upgrade pip \
+    && pip3 install --no-cache-dir -r requirements.txt \
+    || pip3 install --no-cache-dir \
+        requests psutil cryptography \
+        Flask Flask-SocketIO Flask-CORS \
+        scapy paramiko dnspython python-whois \
+        pynput pyautogui pyperclip pillow \
+        discord.py slack-sdk telethon \
+        matplotlib seaborn numpy \
+        reportlab beautifulsoup4 \
+        python-dotenv pyyaml colorama \
+        tabulate tqdm schedule python-dateutil
+
+# Install Signal CLI
+RUN wget -O /tmp/signal-cli.tar.gz \
+    https://github.com/AsamK/signal-cli/releases/download/v0.11.8/signal-cli-0.11.8.tar.gz \
+    && tar -xzf /tmp/signal-cli.tar.gz -C /opt/ \
+    && ln -s /opt/signal-cli-0.11.8/bin/signal-cli /usr/local/bin/signal-cli \
+    && rm /tmp/signal-cli.tar.gz
+
+# Copy application files
+COPY expendable_orca.py .
+COPY .expendable_orca /app/.expendable_orca
+
+# Create necessary directories
+RUN mkdir -p /app/.expendable_orca/payloads \
+    /app/.expendable_orca/workspaces \
+    /app/.expendable_orca/scans \
+    /app/.expendable_orca/phishing_pages \
+    /app/.expendable_orca/captured_credentials \
+    /app/.expendable_orca/ssh_keys \
+    /app/.expendable_orca/traffic_logs \
+    /app/.expendable_orca/nikto_results \
+    /app/.expendable_orca/web_templates \
+    /app/.expendable_orca/sessions \
+    /app/.expendable_orca/spear_phishing \
+    /app/.expendable_orca/email_templates \
+    /app/.expendable_orca/dos_logs \
+    /app/.expendable_orca/agents \
+    /app/.expendable_orca/c2_logs \
+    /app/.expendable_orca/modules \
+    /app/.expendable_orca/network_monitor \
+    /app/.expendable_orca/keylog_exfil \
+    /app/.expendable_orca/deployments \
+    /app/.expendable_orca/domain_hosting \
+    /app/expendable_orca_reports \
+    /app/expendable_orca_reports/graphics
+
+# Set environment variables
+ENV PYTHONUNBUFFERED=1
+ENV TZ=UTC
+
+# Expose ports
+EXPOSE 5000 8080 22
+
+# Entry point
+ENTRYPOINT ["python3", "expendable_orca.py"]
+
+# Default command
+CMD []

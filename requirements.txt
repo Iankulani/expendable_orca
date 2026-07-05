@@ -1,0 +1,96 @@
+
+# EXPENDABLE_ORCA v4.0.0 - Python Dependencies
+# Complete Cybersecurity Platform Requirements
+
+# Core
+python>=3.7
+requests>=2.28.0
+psutil>=5.9.0
+cryptography>=39.0.0
+
+# Web Framework
+Flask>=2.2.0
+Flask-SocketIO>=5.3.0
+Flask-CORS>=3.0.0
+python-socketio>=5.9.0
+eventlet>=0.33.0
+
+# Network & Security
+scapy>=2.4.5
+paramiko>=2.12.0
+dnspython>=2.3.0
+python-whois>=0.7.3
+netifaces>=0.11.0
+pycryptodome>=3.17.0
+
+# Keylogger & Input
+pynput>=1.7.6
+pyautogui>=0.9.54
+pyperclip>=1.8.2
+pygetwindow>=0.0.9
+pillow>=9.5.0
+
+# Messaging Platforms
+discord.py>=2.3.0
+slack-sdk>=3.21.0
+telethon>=1.34.0
+pywhatkit>=5.4
+google-api-python-client>=2.86.0
+google-auth-httplib2>=0.1.0
+google-auth-oauthlib>=1.0.0
+
+# URL Shortening
+pyshorteners>=1.0.1
+
+# QR Code
+qrcode>=7.4.2
+
+# Data Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+numpy>=1.24.0
+
+# PDF Generation
+reportlab>=4.0.0
+
+# HTML Parsing
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# Database
+sqlite3-utils>=3.35.0
+
+# Email
+secure-smtplib>=0.1.1
+
+# Utilities
+python-dotenv>=1.0.0
+pyyaml>=6.0
+colorama>=0.4.6
+tabulate>=0.9.0
+tqdm>=4.65.0
+schedule>=1.2.0
+python-dateutil>=2.8.2
+
+# Network Monitoring
+pyshark>=0.6.0
+dpkt>=1.9.8
+
+# SSH & Terminal
+pexpect>=4.8.0
+ptyprocess>=0.7.0
+
+# QR & Barcode
+pyzbar>=0.1.9
+
+# Additional Security
+stegano>=0.9.9
+cryptography>=39.0.0
+pyOpenSSL>=23.1.0
+
+# Web Scraping
+selenium>=4.9.0
+webdriver-manager>=3.9.0
+
+# DNS Tools
+dns-lexicon>=3.13.0
