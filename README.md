@@ -3,6 +3,22 @@
 
 <img width="1536" height="1004" alt="exorca" src="https://github.com/user-attachments/assets/ddf29029-1ecb-4746-b551-9db24e49ec2b" />
 
+[![GitHub stars](https://img.shields.io/github/stars/Iankulani/expendable_orca?style=for-the-badge&logo=github)](https://github.com/Iankulani/expendable_orca/stargazers)
+
+[![GitHub forks](https://img.shields.io/github/forks/Iankulani/expendable_orca?style=for-the-badge&logo=github)](https://github.com/Iankulani/expendable_orca/network)
+
+[![GitHub watchers](https://img.shields.io/github/watchers/Iankulani/expendable_orca?style=for-the-badge&logo=github)](https://github.com/Iankulani/expendable_orca/watchers)
+
+[![GitHub contributors](https://img.shields.io/github/contributors/Iankulani/expendable_orca?style=for-the-badge&logo=github)](https://github.com/Iankulani/expendable_orca/graphs/contributors)
+
+[![GitHub last commit](https://img.shields.io/github/last-commit/Iankulani/expendable_orca?style=for-the-badge&logo=git)](https://github.com/Iankulani/expendable_orca/commits/main)
+
+[![License](https://img.shields.io/github/license/Iankulani/expendable_orca?style=for-the-badge)](https://github.com/Iankulani/expendable_orca/blob/main/LICENSE)
+
+[![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20Windows%20%7C%20macOS-blue?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/Iankulani/expendable_orca)
+
+[![Python](https://img.shields.io/badge/python-3.x-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+
 Expendable Orca is a modern cyber security operations platform engineered to help security professionals, organizations, ethical hackers, red teams, blue teams, managed security service providers (MSSPs), security researchers, and IT administrators manage cyber security operations from virtually anywhere. The platform combines centralized management, secure communications, intelligent automation, and advanced cyber security capabilities into a single, unified environment.
 
 Designed with flexibility and scalability in mind, Expendable Orca enables authorized users to execute approved administrative and security workflows through multiple communication platforms. Instead of being tied to a single workstation, users can securely interact with the platform through Discord, Slack, Google Chat, iMessage, WhatsApp, a secure web application, or an interactive terminal interface. This multi-platform approach allows organizations to respond more quickly to incidents, monitor infrastructure efficiently, and perform routine security operations from their preferred communication environment.
