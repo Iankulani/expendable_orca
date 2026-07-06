@@ -91,21 +91,35 @@ Expendable Orca includes a comprehensive network management module designed to h
 
 # Capabilities include:
 
-Device inventory
-Network topology visualization
-Host monitoring
-Service monitoring
-Bandwidth analysis
-Configuration management
-Network diagnostics
-Health monitoring
-Device grouping
-Network mapping
-Availability monitoring
-Asset discovery
-Performance monitoring
-Event collection
-Alert management
+* Device inventory
+
+* Network topology visualization
+
+* Host monitoring
+
+* Service monitoring
+
+* Bandwidth analysis
+ 
+* Configuration management
+ 
+* Network diagnostics
+ 
+* Health monitoring
+ 
+* Device grouping
+ 
+* Network mapping
+ 
+* Availability monitoring
+ 
+* Asset discovery
+ 
+* Performance monitoring
+ 
+* Event collection
+ 
+* Alert management
 
 These features assist administrators in understanding network health and responding promptly to operational issues.
 
