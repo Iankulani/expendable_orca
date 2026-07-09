@@ -38,11 +38,9 @@ One of Expendable Orca's defining features is its ability to operate through mul
  
 * Interactive Terminal Interface
 
-Each interface communicates with the Expendable Orca command engine, allowing authorized users to perform approved administrative actions from virtually anywhere while maintaining centralized logging, authentication, auditing, and role-based permissions.
+Each interface communicates with the Expendable Orca command engine, allowing authorized users to perform approved administrative actions from virtually anywhere while maintaining centralized logging, authentication, auditing, and role-based permissions. This flexibility improves operational efficiency, particularly for distributed security teams working across multiple locations and time zones.
 
-This flexibility improves operational efficiency, particularly for distributed security teams working across multiple locations and time zones.
-
-Secure Web Application
+# Secure Web Application
 
 The Expendable Orca web application provides a modern dashboard for managing cyber security operations.
 
