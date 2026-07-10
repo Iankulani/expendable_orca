@@ -22,7 +22,7 @@ Unified Multi-Platform Command Center
 
 One of Expendable Orca's defining features is its ability to operate through multiple communication channels. Rather than requiring users to log into a dedicated management console for every task, the platform enables secure interaction through several supported interfaces.
 
-# Supported communication platforms include:
+# Supported communication platforms include.
 
 * Discord
  
@@ -44,7 +44,7 @@ Each interface communicates with the Expendable Orca command engine, allowing au
 
 The Expendable Orca web application provides a modern dashboard for managing cyber security operations.
 
-# Features include:
+# Features include
 
 * Real-time dashboards
 * Threat monitoring
