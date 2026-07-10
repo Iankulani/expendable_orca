@@ -128,19 +128,33 @@ The integrated IP module provides valuable network intelligence capabilities.
 # Features include:
 
 * IP address lookup
+ 
 * Geolocation information
+ 
 * ASN identification
+ 
 * WHOIS integration
+ 
 * DNS lookup
+ 
 * Reverse DNS
+ 
 * Port information
+ 
 * Reputation analysis
+ 
 * Blacklist checking
+ 
 * IPv4 support
+ 
 * IPv6 support
+ 
 * Domain resolution
+ 
 * Network ownership information
+ 
 * Historical lookup support
+ 
 * Risk scoring
 
 This module assists security teams in investigating network events and understanding infrastructure relationships.
