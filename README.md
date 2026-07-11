@@ -47,12 +47,19 @@ The Expendable Orca web application provides a modern dashboard for managing cyb
 # Features include
 
 * Real-time dashboards
+ 
 * Threat monitoring
+ 
 * Asset management
+ 
 * Security alerts
+ 
 * User management
+ 
 * Incident tracking
+ 
 * Command execution
+ 
 * Reporting
 * Analytics
 * Configuration management
