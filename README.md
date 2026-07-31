@@ -203,7 +203,7 @@ Expendable Orca includes a social engineering awareness module intended exclusiv
 
 The module is designed to support ethical security education and should only be used with proper authorization and in accordance with organizational policies and applicable laws.
 
-Keyboard Activity Monitoring
+# Keyboard Activity Monitoring
 
 Expendable Orca includes a keyboard activity monitoring capability that is intended solely for authorized administrative, security monitoring, or digital forensics use cases on systems where appropriate permission has been obtained.
 
