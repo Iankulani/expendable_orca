@@ -1,7 +1,7 @@
 # expendable_orca
 
 
-<img width="1536" height="1004" alt="exorca" src="https://github.com/user-attachments/assets/ddf29029-1ecb-4746-b551-9db24e49ec2b" />
+<img width="360" height="360" alt="exorca" src="https://github.com/user-attachments/assets/ddf29029-1ecb-4746-b551-9db24e49ec2b" />
 
 [![GitHub stars](https://img.shields.io/github/stars/Iankulani/expendable_orca?style=for-the-badge&logo=github)](https://github.com/Iankulani/expendable_orca/stargazers)
 [![GitHub forks](https://img.shields.io/github/forks/Iankulani/expendable_orca?style=for-the-badge&logo=github)](https://github.com/Iankulani/expendable_orca/network)
