@@ -1,5 +1,6 @@
 # expendable_orca
 
+<div align="center">
 
 <img width="360" height="360" alt="exorca" src="https://github.com/user-attachments/assets/ddf29029-1ecb-4746-b551-9db24e49ec2b" />
 
@@ -11,6 +12,8 @@
 [![License](https://img.shields.io/github/license/Iankulani/expendable_orca?style=for-the-badge)](https://github.com/Iankulani/expendable_orca/blob/main/LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Linux%20%7C%20Windows%20%7C%20macOS-blue?style=for-the-badge&logo=linux&logoColor=white)](https://github.com/Iankulani/expendable_orca)
 [![Python](https://img.shields.io/badge/python-3.x-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+
+</div>
 
 Expendable Orca is a modern cyber security operations platform engineered to help security professionals, organizations, ethical hackers, red teams, blue teams, managed security service providers (MSSPs), security researchers, and IT administrators manage cyber security operations from virtually anywhere. The platform combines centralized management, secure communications, intelligent automation, and advanced cyber security capabilities into a single, unified environment.
 
